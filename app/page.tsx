@@ -553,7 +553,6 @@ Mensagem: ${formData.mensagem}`
                     {service.icon}
                   </div>
                   <CardTitle className="text-xl mb-2">{service.title}</CardTitle>
-                  <div className="text-2xl font-bold text-green-600">{service.price}</div>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <CardDescription className="text-gray-600 leading-relaxed">{service.description}</CardDescription>
