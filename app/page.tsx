@@ -171,21 +171,20 @@ Mensagem: ${formData.mensagem}`
       title: "Projetos Elétricos",
       description: "Dimensionamento e detalhamento conforme NBR-5410.",
       features: ["Planta elétrica", "Memorial", "ART"],
-      price: "R$ 8/m²",
+      
     },
     {
       icon: <Sun className="h-8 w-8" />,
-      title: "Sistema Fotovoltaico",
-      description: "Projeto e instalação de energia solar residencial/comercial.",
+      title: "Projetos e Laudos de SPDA",
+      description: ".",
       features: ["Projeto 3D", "Homologação ANEEL", "Garantia 25 anos"],
-      price: "A partir de R$ 15 000",
+      
     },
     {
       icon: <Shield className="h-8 w-8" />,
       title: "SPDA / Aterramento",
       description: "Proteção contra descargas atmosféricas conforme NBR-5419.",
       features: ["Projeto", "Instalação", "Laudo"],
-      price: "Sob orçamento",
     },
   ]
 
