@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || "https://jmaengenharia.com.br",
+  siteUrl: process.env.SITE_URL || "https://xn--jmaservio-x3a.com.br/",  // ← Corrigir
   generateRobotsTxt: true,
   exclude: ["/admin/*", "/private/*"],
   additionalPaths: async (config) => [

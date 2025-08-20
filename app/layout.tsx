@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "sistema fotovoltaico",
     "aterramento elétrico",
   ].join(", "),
-  authors: [{ name: "Eng. Jodalvo Mendes", url: "https://jmaengenharia.com.br" }],
+  authors: [{ name: "Eng. Jodalvo Mendes", url: "https://xn--jmaservio-x3a.com.br/" }],
   creator: "JMA Engenharia Elétrica",
   publisher: "JMA Engenharia Elétrica",
   robots: {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://jmaengenharia.com.br",
+    url: "https://xn--jmaservio-x3a.com.br/",
     title: "JMA Engenharia Elétrica | Projetos Elétricos e Energia Solar SP",
     description:
       "Soluções completas em engenharia elétrica com Eng. Jodalvo Mendes. Projetos elétricos, energia solar, instalações e laudos técnicos em São Paulo.",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     images: ["https://jmaengenharia.com.br/og-image.jpg"],
   },
   alternates: {
-    canonical: "https://jmaengenharia.com.br",
+    canonical: "https://xn--jmaservio-x3a.com.br/",
   },
   verification: {
     google: "seu-codigo-google-search-console-aqui",
@@ -81,7 +81,7 @@ const jsonLd = {
   "@type": "LocalBusiness",
   name: "JMA Engenharia Elétrica",
   description: "Empresa de engenharia elétrica especializada em projetos elétricos, energia solar e instalações",
-  url: "https://jmaengenharia.com.br",
+  url: "https://xn--jmaservio-x3a.com.br/",
   telephone: "+55-11-99999-9999",
   email: "contato@jmaengenharia.com.br",
   address: {
@@ -157,7 +157,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        <link rel="canonical" href="https://jmaengenharia.com.br" />
+        <link rel="canonical" href="https://xn--jmaservio-x3a.com.br/" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </head>
       <body className={inter.className}>{children}</body>
